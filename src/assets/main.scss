@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+
+
+  //@media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  //}
+}
+
+.container {
+  min-width: 375px;
+  max-width: 1440px;
+  padding: 0 16px;
+  margin: 0 auto;
+
+  @media screen and (min-width: 834px) {
+    padding: 0 64px;
+  }
+  @media screen and (min-width: 1024px) {
+    padding: 0 120px;
+  }
+}
+
+header {
+  //@media screen and (min-width: 768px) {
+    flex: 1;
+  //}
+}
+
+main {
+  //@media screen and (min-width: 768px) {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  //}
+}
+
+footer {
+  //@media screen and (min-width: 768px) {
+    flex-shrink: 0;
+  //}
+}
+
+.section-margins-y {
+  margin: 32px 0;
+}
+
+.border-red {
+  border: 1px dotted red;
+}
+.border-green {
+  border: 1px dotted green;
+}
+.border-blue {
+  border: 1px dotted blue;
+}
+.border-white {
+  border: 1px dotted white;
+}
