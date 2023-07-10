@@ -17,6 +17,19 @@ body {
     flex-direction: column;
     min-height: 100vh;
   //}
+
+  @media screen and (min-width: 834px) {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 20px;
+    line-height: 33px;
+  }
+}
+
+body .modal-open {
+  overflow: hidden;
 }
 
 .container {
@@ -55,7 +68,28 @@ footer {
 
 .section-margins-y {
   margin: 32px 0;
+
+  @media screen and (min-width: 834px) {
+    margin: 54px 0;
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin: 100px 0;
+  }
 }
+
+.section-paddings-y {
+  padding: 16px 0;
+
+  @media screen and (min-width: 834px) {
+    padding: 27px 0;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding: 50px 0;
+  }
+}
+
 
 .border-red {
   border: 1px dotted red;

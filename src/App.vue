@@ -6,6 +6,7 @@
 
 <script setup>
 
+import Modal from "@/components/global/Modal.vue";
 </script>
 
 <style lang="scss">

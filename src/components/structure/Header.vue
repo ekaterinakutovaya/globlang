@@ -1,4 +1,7 @@
 <template>
+<!--  <Modal v-if="showModal">-->
+<!--      modal-->
+<!--  </Modal>-->
   <header class="w-full ">
     <div class="container border-solid border-b lg:border-b-0 border-[rgba(0,0,0,0.10)]">
       <div class="w-full flex justify-between lg:justify-normal items-center py-[10px] sm:py-[24px] lg:py-[15px]">
@@ -29,7 +32,9 @@
           <Button
               btnText="Sign In"
               color="bg-accent-primary"
+              @click="showModal = true"
           />
+
           <Button
               btnText="Get Quote"
               color="bg-accent-primary"
@@ -48,7 +53,9 @@
         <Button
             btnText="Sign In"
             color="bg-accent-primary"
+            @click="showModal = true"
         />
+
         <Button
             btnText="Get Quote"
             color="bg-accent-primary"
@@ -65,6 +72,11 @@
 import Logo from "@/components/icons/Logo.vue";
 import MenuTogglerBtn from "@/components/global/MenuTogglerBtn.vue";
 import Button from "@/components/global/Button.vue";
+import Modal from "@/components/global/Modal.vue";
+import {ref} from "vue";
+
+const showModal = ref(false);
+
 </script>
 
 <style lang="scss" scoped>
