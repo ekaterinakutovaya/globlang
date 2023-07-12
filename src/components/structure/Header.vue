@@ -32,7 +32,7 @@
           <Button
               btnText="Sign In"
               color="bg-accent-primary"
-              @click="showModal = true"
+              @click="$router.push('/register')"
           />
 
           <Button
@@ -53,7 +53,7 @@
         <Button
             btnText="Sign In"
             color="bg-accent-primary"
-            @click="showModal = true"
+            @click="$router.push('/register')"
         />
 
         <Button
@@ -73,9 +73,9 @@ import Logo from "@/components/icons/Logo.vue";
 import MenuTogglerBtn from "@/components/global/MenuTogglerBtn.vue";
 import Button from "@/components/global/Button.vue";
 import Modal from "@/components/global/Modal.vue";
-import {ref} from "vue";
-
-const showModal = ref(false);
+// import {ref} from "vue";
+//
+// const showModal = ref(false);
 
 </script>
 

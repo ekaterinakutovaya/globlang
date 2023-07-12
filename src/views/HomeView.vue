@@ -1,6 +1,5 @@
 <template>
   <Header/>
-
   <main>
     <HeroSection/>
     <Partners/>
@@ -20,16 +19,13 @@
     <TrustedSection/>
     <Thorough5Step/>
   </main>
-
+  
   <Footer/>
-
 </template>
 
 <script setup>
 
-import Header from "@/components/structure/Header.vue";
 import HeroSection from "@/components/partials/HeroSection.vue";
-import Footer from "@/components/structure/Footer.vue";
 import Partners from "@/components/partials/Partners.vue";
 import ServicesSection from "@/components/partials/ServicesSection/ServicesSection.vue";
 import ServicesSectionMobile from "@/components/partials/ServicesSection/ServicesSectionMobile.vue";
@@ -39,6 +35,8 @@ import INeedTranslation from "@/components/partials/INeedTranslation.vue";
 import AllOurServices from "@/components/partials/AllOurServices/AllOurServices.vue";
 import TrustedSection from "@/components/partials/TrustedSection.vue";
 import Thorough5Step from "@/components/partials/Thorought5Step/Thorough5Step.vue";
+import Header from "@/components/structure/Header.vue";
+import Footer from "@/components/structure/Footer.vue";
 </script>
 
 <style lang="scss" scoped>

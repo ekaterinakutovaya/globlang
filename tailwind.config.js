@@ -15,7 +15,8 @@ module.exports = {
       'black': '#383838',
       'base-gray': '#585757',
       'gray': '#969696',
-      'cards-bg': '#EEEEEE'
+      'cards-bg': '#EEEEEE',
+      'input-border-color': 'rgba(88,87,87,0.20)'
     },
     boxShadow: {
       'input-shadow': '0px 0px 15px 0px rgba(56, 56, 56, 0.15)'
