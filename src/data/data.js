@@ -133,12 +133,12 @@ export const menu = {
 }
 
 export const globlangServicesSlider = [
-  {image: '/slider/slide001.jpg'},
-  {image: '/slider/slide002.jpg'},
-  {image: '/slider/slide003.jpg'},
-  {image: '/slider/slide004.jpg'},
-  {image: '/slider/slide005.jpg'},
-  {image: '/slider/slide006.jpg'},
+  {image: 'slider/slide001.jpg'},
+  {image: 'slider/slide002.jpg'},
+  {image: 'slider/slide003.jpg'},
+  {image: 'slider/slide004.jpg'},
+  {image: 'slider/slide005.jpg'},
+  {image: 'slider/slide006.jpg'},
 ]
 
 export const globalOffices = [
