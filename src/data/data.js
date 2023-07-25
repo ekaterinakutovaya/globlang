@@ -1,6 +1,6 @@
 export const services = [
   {index: 0, title: 'A Powerful Human Touch', icon: 'icons/worldwide.png'},
-  {index: 1, title: 'A Translation Company You Can Trust', icon: '/icons/money.png'},
+  {index: 1, title: 'A Translation Company You Can Trust', icon: 'icons/money.png'},
   {index: 2, title: 'Website Translation', icon: 'icons/web.png'},
   {index: 3, title: 'Professional Translation Services', icon: 'icons/translation.png'},
   {index: 4, title: 'Document Translation', icon: 'icons/document.png'},
@@ -18,7 +18,7 @@ export const allOurServices = [
     index: 1,
     title: 'Interpreting Services',
     text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-    icon: '/icons/interpreter.png'
+    icon: 'icons/interpreter.png'
   },
   {
     index: 2,
@@ -142,9 +142,9 @@ export const globlangServicesSlider = [
 ]
 
 export const globalOffices = [
-  {title: 'Dubai', text: 'Lorem ipsum dolor sit amet consectetur. Massa sit eu tempor elit eu aenean venenatis.', image: '/global-offices/global-offices002.png'},
-  {title: 'Moscow', text: 'Lorem ipsum dolor sit amet consectetur. Massa sit eu tempor elit eu aenean venenatis.', image: '/global-offices/global-offices003.png'},
-  {title: 'New York', text: 'Lorem ipsum dolor sit amet consectetur. Massa sit eu tempor elit eu aenean venenatis.', image: '/global-offices/global-offices004.png'},
-  {title: 'Shanghai', text: 'Lorem ipsum dolor sit amet consectetur. Massa sit eu tempor elit eu aenean venenatis.', image: '/global-offices/global-offices005.png'},
-  {title: 'Paris', text: 'Lorem ipsum dolor sit amet consectetur. Massa sit eu tempor elit eu aenean venenatis.', image: '/global-offices/global-offices006.png'},
+  {title: 'Dubai', text: 'Lorem ipsum dolor sit amet consectetur. Massa sit eu tempor elit eu aenean venenatis.', image: 'global-offices/global-offices002.png'},
+  {title: 'Moscow', text: 'Lorem ipsum dolor sit amet consectetur. Massa sit eu tempor elit eu aenean venenatis.', image: 'global-offices/global-offices003.png'},
+  {title: 'New York', text: 'Lorem ipsum dolor sit amet consectetur. Massa sit eu tempor elit eu aenean venenatis.', image: 'global-offices/global-offices004.png'},
+  {title: 'Shanghai', text: 'Lorem ipsum dolor sit amet consectetur. Massa sit eu tempor elit eu aenean venenatis.', image: 'global-offices/global-offices005.png'},
+  {title: 'Paris', text: 'Lorem ipsum dolor sit amet consectetur. Massa sit eu tempor elit eu aenean venenatis.', image: 'global-offices/global-offices006.png'},
 ]
