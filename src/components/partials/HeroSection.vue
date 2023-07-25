@@ -15,7 +15,8 @@
 
         <Button
             btnText="Translate Now"
-            color="bg-accent-secondary"
+            color="light"
+            @click="$router.push('/translate')"
         />
 
         <div
@@ -29,7 +30,9 @@
 </template>
 
 <script setup>
+import {useRouter} from "vue-router";
 
+const router = useRouter();
 import Button from "@/components/global/Button.vue";
 </script>
 

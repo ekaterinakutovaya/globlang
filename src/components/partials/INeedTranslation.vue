@@ -32,7 +32,8 @@
           <div class="hidden lg:block">
             <Button
                 btnText="Get Quote"
-                color="bg-accent-secondary"
+                color="light"
+                @click="$router.push('/translate')"
             />
           </div>
         </div>
@@ -46,7 +47,8 @@
           <div class="lg:hidden">
             <Button
                 btnText="Get Quote"
-                color="bg-accent-secondary"
+                color="light"
+                @click="$router.push('/translate')"
             />
           </div>
         </div>

@@ -12,8 +12,8 @@
             class=" absolute top-[38%] bottom-0 right-[100px] md:right-[140px] lg:right-[183px]"
         >
 
-          <div class=" w-[380px] md:w-[505px] lg:w-[628px] h-[60px] border-dashed border-r-2 border-b-2 border-black"/>
-          <div class=" w-[380px] md:w-[505px] lg:w-[628px] h-[60px] border-dashed border-l-2 border-black"/>
+          <div class="hidden sm:block w-[380px] md:w-[505px] lg:w-[525px] xl:w-[628px] h-[60px] border-dashed border-r-2 border-b-2 border-black"/>
+          <div class="hidden sm:block w-[380px] md:w-[505px] lg:w-[525px] xl:w-[628px] h-[60px] border-dashed border-l-2 border-black"/>
         </div>
       </div>
 </template>

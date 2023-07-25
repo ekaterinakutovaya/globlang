@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import 'primeicons/primeicons.css';
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+:root {
+  --swiper-pagination-bullet-inactive-color: #fff;
+  --swiper-pagination-bullet-inactive-opacity: 1;
+}
+
 
 body {
   font-family: 'Inter', sans-serif;
@@ -28,9 +31,40 @@ body {
   }
 }
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body .modal-open {
   overflow: hidden;
 }
+
+//input {
+//  all: unset;
+//}
+
+input:focus {
+  outline: none !important;
+  //border-color: transparent !important;
+  box-shadow: none !important;
+}
+
+textarea {
+  resize:none;
+
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+textarea:focus {
+  outline: none !important;
+  //border-color: transparent !important;
+  box-shadow: none !important;
+
+}
+
+
 
 .container {
   min-width: 375px;
@@ -103,3 +137,17 @@ footer {
 .border-white {
   border: 1px dotted white;
 }
+
+.swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background-color: #fff !important;
+  }
+
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #01D77D !important;
+  }
+}
+
+

@@ -43,8 +43,8 @@
 
         <div
             v-if="item.index == 0 || item.index == 1 || item.index == 3"
-            class="w-[120px] md:w-[175px] lg:w-[240px] border-dashed border-b-2 border-black absolute right-[-180%]
-            md:right-[-267%] lg:right-[-365%] top-0 bottom-[50%]"
+            class="w-[120px] md:w-[175px] lg:w-[200px] xl:w-[240px] border-dashed border-b-2 border-black absolute right-[-180%]
+            md:right-[-267%] lg:right-[-300%] xl:right-[-365%] top-0 bottom-[50%]"
         />
 
 

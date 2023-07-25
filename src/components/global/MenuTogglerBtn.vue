@@ -1,14 +1,18 @@
 <template>
   <button>
-    <Bars class="w-[24px] h-[24px] sm:w-[28px] sm:h-[28px] mt-[5px]"/>
+    <i class="text-[24px] text-black pi mt-[5px]"
+      :class="{'pi-bars': !isMenuOpened, 'pi-times': isMenuOpened}"
+    ></i>
   </button>
 </template>
 
 <script setup>
-
 import Bars from "@/components/icons/Bars.vue";
+import {defineProps ,toRefs} from "vue";
+
+const props = defineProps({
+  isMenuOpened: {type: Boolean, default: false}
+})
+
+const {isMenuOpened} = toRefs(props);
 </script>
-
-<style lang="scss" scoped>
-
-</style>

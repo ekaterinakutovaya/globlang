@@ -1,5 +1,5 @@
 <template>
-  <section class="section-paddings-y">
+  <section class="section-paddings-y sm:hidden">
     <!--   Inner container   -->
     <div class="w-full sm:flex sm:max-h-max">
       <!--   Content     -->
@@ -20,13 +20,14 @@
 
         <Button
             btnText="Get Quote"
-            color="bg-accent-secondary"
+            color="light"
+            @click="$router.push('/translate')"
         />
       </div>
 
       <!--    Image    -->
       <div class="w-[310px] sm:w-1/2 h-[310px] sm:h-auto rounded-[20px] sm:rounded-none overflow-hidden ml-auto sm:ml-0 mr-[16px] sm:mr-0 -mt-[155px]">
-        <img alt="trusted" class="w-full h-full object-cover" src="@/assets/images/trusted.jpg">
+        <img alt="trusted" class="w-full h-full object-cover" src="../../../assets/images/trusted.jpg">
       </div>
     </div>
   </section>

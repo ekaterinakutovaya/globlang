@@ -17,6 +17,7 @@
     <INeedTranslation/>
     <AllOurServices/>
     <TrustedSection/>
+    <TrustedSectionDesktop/>
     <Thorough5Step/>
   </main>
   
@@ -33,10 +34,11 @@ import ServicesSectionTablet from "@/components/partials/ServicesSection/Service
 import Statistics from "@/components/partials/Statistics.vue";
 import INeedTranslation from "@/components/partials/INeedTranslation.vue";
 import AllOurServices from "@/components/partials/AllOurServices/AllOurServices.vue";
-import TrustedSection from "@/components/partials/TrustedSection.vue";
+import TrustedSection from "@/components/partials/TrustedSection/TrustedSection.vue";
 import Thorough5Step from "@/components/partials/Thorought5Step/Thorough5Step.vue";
 import Header from "@/components/structure/Header.vue";
 import Footer from "@/components/structure/Footer.vue";
+import TrustedSectionDesktop from "@/components/partials/TrustedSection/TrustedSectionDesktop.vue";
 </script>
 
 <style lang="scss" scoped>
