@@ -9,7 +9,7 @@ import IndustriesView from "@/views/IndustriesView.vue";
 import LanguagesView from "@/views/LanguagesView.vue";
 import TranslatedView from "@/views/TranslatedView/TranslatedView.vue";
 import CompanyView from "@/views/CompanyView.vue";
-import GlobalOfficesView from "@/views/GlobalOfficesView.vue";
+import GlobalOfficesView from "@/views/GlobalOfficesView/GlobalOfficesView.vue";
 import ContactUsView from "@/views/ContactUsView/ContactUsView.vue";
 import ProfileView from "@/views/ProfileView/ProfileView.vue";
 

@@ -142,9 +142,9 @@ export const globlangServicesSlider = [
 ]
 
 export const globalOffices = [
-  {title: 'Dubai', text: 'Lorem ipsum dolor sit amet consectetur. Massa sit eu tempor elit eu aenean venenatis.', image: 'global-offices/global-offices002.png'},
-  {title: 'Moscow', text: 'Lorem ipsum dolor sit amet consectetur. Massa sit eu tempor elit eu aenean venenatis.', image: 'global-offices/global-offices003.png'},
-  {title: 'New York', text: 'Lorem ipsum dolor sit amet consectetur. Massa sit eu tempor elit eu aenean venenatis.', image: 'global-offices/global-offices004.png'},
-  {title: 'Shanghai', text: 'Lorem ipsum dolor sit amet consectetur. Massa sit eu tempor elit eu aenean venenatis.', image: 'global-offices/global-offices005.png'},
-  {title: 'Paris', text: 'Lorem ipsum dolor sit amet consectetur. Massa sit eu tempor elit eu aenean venenatis.', image: 'global-offices/global-offices006.png'},
+  {title: 'Dubai', text: 'Lorem ipsum dolor sit amet consectetur. Massa sit eu tempor elit eu aenean venenatis.', image: 'global-offices002.png'},
+  {title: 'Moscow', text: 'Lorem ipsum dolor sit amet consectetur. Massa sit eu tempor elit eu aenean venenatis.', image: 'global-offices003.png'},
+  {title: 'New York', text: 'Lorem ipsum dolor sit amet consectetur. Massa sit eu tempor elit eu aenean venenatis.', image: 'global-offices004.png'},
+  {title: 'Shanghai', text: 'Lorem ipsum dolor sit amet consectetur. Massa sit eu tempor elit eu aenean venenatis.', image: 'global-offices005.png'},
+  {title: 'Paris', text: 'Lorem ipsum dolor sit amet consectetur. Massa sit eu tempor elit eu aenean venenatis.', image: 'global-offices006.png'},
 ]

@@ -4,7 +4,7 @@
     <section class="section-paddings-y">
       <div class="container">
         <SectionHead
-          title="Global Offices"
+          title="Head Office"
           text="Globlang Translation has global offices for better customer support.You can
 contact us if you have any question or feedback."
         />
@@ -46,9 +46,9 @@ import Footer from "@/components/structure/Footer.vue";
 import ServicesWeRender from "@/components/partials/ServicesWeRender.vue";
 import WeAreAlwaysOnline from "@/components/partials/WeAreAlwaysOnline.vue";
 import SectionHead from "@/components/global/SectionHead.vue";
-import GlobalOfficesItem from "@/components/partials/GlobalOffices/GlobalOfficesItem.vue";
+import GlobalOfficesItem from "@/views/GlobalOfficesView/GlobalOfficesItem.vue";
 import {ref} from "vue";
 
-const headOffice = ref({title: 'Washington', text: 'Lorem ipsum dolor sit amet consectetur. Massa sit eu tempor elit eu aenean venenatis.', image: '/global-offices/global-offices001.png'});
+const headOffice = ref({title: 'Washington', text: 'Lorem ipsum dolor sit amet consectetur. Massa sit eu tempor elit eu aenean venenatis.', image: 'global-offices001.png'});
 </script>
 

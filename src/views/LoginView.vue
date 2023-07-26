@@ -104,11 +104,6 @@ const password = defineComponentBinds('password', {
   })
 });
 
-
-onMounted(async () => {
-
-})
-
 const onSubmit = handleSubmit(values => {
   isLoading.value = true;
   login(values)
@@ -116,12 +111,12 @@ const onSubmit = handleSubmit(values => {
 
 const login = async (data) => {
   try {
-    const res = await axios.post('http://globlang.com:8078/auth/login', data);
+    const res = await axios.post('https://cors-anywhere.ekaterinakutovaya.github.io/http://globlang.com:8078/auth/login', data);
     let token = res.data.token;
     let email = res.data.email;
 
     if (res.status === 200) {
-      const user = await axios.get(`http://globlang.com:8078/user/${email}`);
+      const user = await axios.get(`https://cors-anywhere.ekaterinakutovaya.github.io/http://globlang.com:8078/user/${email}`);
 
       const userData = {
         email: email,
@@ -143,7 +138,7 @@ const login = async (data) => {
     }
 
   } catch (error) {
-    // console.log('Login error', error.response.status)
+    console.log('Login error', error)
 
   }
 }

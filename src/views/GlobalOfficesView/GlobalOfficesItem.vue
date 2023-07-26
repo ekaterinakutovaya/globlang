@@ -1,5 +1,4 @@
 <template>
-<!--  <pre>{{item}}</pre>-->
   <div class="w-full sm:w-[330px] lg:w-[580px] bg-dim-gray rounded-[10px] p-[16px] lg:p-0 lg:py-[20px] lg:px-[44px] my-0 mx-auto">
     <div class="flex gap-x-[10px] lg:gap-x-[24px]">
       <div class="w-[70px] lg:w-[160px]">
