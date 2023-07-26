@@ -14,8 +14,8 @@ import ContactUsView from "@/views/ContactUsView/ContactUsView.vue";
 import ProfileView from "@/views/ProfileView/ProfileView.vue";
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
-  // history: createWebHashHistory(),
+  // history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(),
   routes: [
     {
       path: '/',
