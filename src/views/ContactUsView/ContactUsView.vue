@@ -2,7 +2,9 @@
   <Header/>
   <main>
     <section class="w-full relative pb-[32px]">
-      <div class="w-full h-[332px] lg:h-[700px] bg-[url('map.jpg')] bg-cover bg-top absolute -z-10">
+      <div
+          :style="{ backgroundImage: `url('map.jpg')` }"
+          class="w-full h-[332px] lg:h-[700px] bg-cover bg-top absolute -z-10">
         <div class="w-full h-full backdrop-brightness-50">
 
         </div>
