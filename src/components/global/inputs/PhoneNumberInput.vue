@@ -13,7 +13,7 @@
              class="appearance-none block w-full h-full bg-white py-[14px] px-[12px] border border-solid border-input-border-color rounded-r-[10px] text-[13px] text-black leading-[140%] focus:outline-none focus:border-accent-primary"
              data-maska="## ### ## ##"
              placeholder="Phone"
-             @input="$emit('update:modelValue', $event.target.value)"
+             @blur="$emit('blur')" @input="$emit('update:modelValue', $event.target.value)"
       >
     </div>
     <span class="text-[12px] text-danger absolute bottom-[-20px]">{{ error }}</span>
@@ -22,7 +22,6 @@
 
 <script setup>
 import {vMaska} from "maska";
-import {useField, Field} from 'vee-validate';
 import {defineProps, toRefs} from "vue";
 
 const props = defineProps({
@@ -34,6 +33,6 @@ const props = defineProps({
 
 const {labeled, modelValue, error, disabled} = toRefs(props);
 
-const { value, errorMessage } = useField(() => props.modelValue);
+const emit = defineEmits(['update:modelValue', 'blur']);
 
 </script>

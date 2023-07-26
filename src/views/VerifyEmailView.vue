@@ -6,8 +6,13 @@
       <div class="py-[20px] sm:py-[42px] lg:py-[120px] w-full h-full lg:flex items-center">
         <!--  Image    -->
         <div class="hidden lg:block w-1/2 h-full px-[50px]">
-          <div class="w-full h-full overflow-hidden rounded-[50px]">
-            <img alt="auth" class="w-full h-full object-cover" src="../assets/images/unsplash.jpg">
+          <div class="w-full h-full overflow-hidden rounded-[50px] relative">
+            <router-link to="/">
+              <div class="w-[147px] h-[100px] bg-white rounded-br-[50px] absolute z-50 flex justify-center items-center">
+                <Logo class="w-[100px] "/>
+              </div>
+            </router-link>
+            <img src="../assets/images/unsplash.jpg" alt="auth" class="w-full h-full object-cover">
           </div>
         </div>
 
@@ -73,6 +78,7 @@ import {useRouter} from "vue-router";
 import Button from "@/components/global/Button.vue";
 import CustomInput from "@/components/global/inputs/CustomInput.vue";
 import axios from "axios";
+import Logo from "@/components/icons/Logo.vue";
 
 const isLoading = ref(false);
 const router = useRouter();

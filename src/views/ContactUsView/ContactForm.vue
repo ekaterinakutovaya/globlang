@@ -16,10 +16,6 @@
           v-bind="email"
       />
 
-<!--      <PhoneNumberInput-->
-<!--          v-bind="phone"-->
-<!--      />-->
-
       <div class="relative">
         <div class="flex items-center h-[48px] group">
           <div class="w-[70px] h-full border border-r-0 border-solid border-input-border-color rounded-l-[10px]
