@@ -3,47 +3,43 @@
     <div class="container">
       <swiper
           :autoplay="{
-            delay: 1000
+            delay: 5000
           }"
           :loop="true"
           :slides-per-view="4"
+          :modules="modules"
       >
-        <swiper-slide>
-          <Logitech class="w-[47px] sm:w-[85px] lg:w-[130px] fill-base-gray"/>
+        <swiper-slide >
+          <div class="w-full flex justify-center">
+            <Logitech class="w-[47px] sm:w-[85px] lg:w-[130px] fill-base-gray"/>
+          </div>
         </swiper-slide>
         <swiper-slide>
-          <Google class="w-[42px] sm:w-[77px] lg:w-[130px]  fill-base-gray"/>
+          <div class="w-full flex justify-center">
+            <Google class="w-[42px] sm:w-[77px] lg:w-[130px]  fill-base-gray"/>
+          </div>
         </swiper-slide>
         <swiper-slide>
-          <LinkedIn class="w-[53px] sm:w-[81px]  lg:w-[130px] fill-base-gray"/>
+          <div class="w-full flex justify-center">
+            <LinkedIn class="w-[53px] sm:w-[81px]  lg:w-[130px] fill-base-gray"/>
+          </div>
+        </swiper-slide>
+        <swiper-slide >
+          <div class="w-full flex justify-center">
+            <Logitech class="w-[47px] sm:w-[85px] lg:w-[130px] fill-base-gray"/>
+          </div>
         </swiper-slide>
         <swiper-slide>
-          <Logitech class="w-[47px] sm:w-[85px] lg:w-[130px] fill-base-gray"/>
+          <div class="w-full flex justify-center">
+            <Google class="w-[42px] sm:w-[77px] lg:w-[130px]  fill-base-gray"/>
+          </div>
         </swiper-slide>
         <swiper-slide>
-          <Google class="w-[42px] sm:w-[77px] lg:w-[130px]  fill-base-gray"/>
+          <div class="w-full flex justify-center">
+            <LinkedIn class="w-[53px] sm:w-[81px]  lg:w-[130px] fill-base-gray"/>
+          </div>
         </swiper-slide>
-        <swiper-slide>
-          <LinkedIn class="w-[53px] sm:w-[81px]  lg:w-[130px] fill-base-gray"/>
-        </swiper-slide>
-        <swiper-slide>
-          <Logitech class="w-[47px] sm:w-[85px] lg:w-[130px] fill-base-gray"/>
-        </swiper-slide>
-        <swiper-slide>
-          <Google class="w-[42px] sm:w-[77px] lg:w-[130px]  fill-base-gray"/>
-        </swiper-slide>
-        <swiper-slide>
-          <LinkedIn class="w-[53px] sm:w-[81px]  lg:w-[130px] fill-base-gray"/>
-        </swiper-slide>
-        <swiper-slide>
-          <Logitech class="w-[47px] sm:w-[85px] lg:w-[130px] fill-base-gray"/>
-        </swiper-slide>
-        <swiper-slide>
-          <Google class="w-[42px] sm:w-[77px] lg:w-[130px]  fill-base-gray"/>
-        </swiper-slide>
-        <swiper-slide>
-          <LinkedIn class="w-[53px] sm:w-[81px]  lg:w-[130px] fill-base-gray"/>
-        </swiper-slide>
+
       </swiper>
     </div>
 

@@ -110,6 +110,7 @@ import CustomInput from "@/components/global/inputs/CustomInput.vue";
 import {useUserStore} from "@/stores/userStore";
 import PhoneNumberInput from "@/components/global/inputs/PhoneNumberInput.vue";
 import Logo from "@/components/icons/Logo.vue";
+import {API_URL} from "@/api";
 
 
 const router = useRouter();
@@ -120,7 +121,7 @@ const realCaptcha = ref(null);
 const isLoading = ref(false);
 
 onMounted(async () => {
-  const res = await axios.get('http://globlang.com:8078/auth/signup');
+  const res = await axios.get(API_URL + 'auth/signup');
   hiddenCaptcha.value = res.data.hiddenCaptcha;
   realCaptcha.value = res.data.realCaptcha;
 })
